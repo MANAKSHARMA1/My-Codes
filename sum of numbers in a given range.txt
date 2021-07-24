@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+ int main(){
+     int sum =0 , a ,b ,i;
+     cout<<"enter first number";
+     cin>>a;
+     cout<<"enter second number";
+     cin>>b;
+     for(i = a; i <=b; i++){
+         sum = sum + i ;
+         
+     }
+     cout<<"the sum of numbers  from "<<a<<"to"<<b<<"is"<<sum;
+     return 0;
+     
+ }
